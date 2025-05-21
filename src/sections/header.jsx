@@ -25,7 +25,9 @@ const Header = () => {
             smooth 
             offset={-100} 
             onClick={() => setIsOpen(false)}
-            className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5">
+            activeClass="nav-active"
+            className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+        >
             {title}
         </LinkScroll>
     )
