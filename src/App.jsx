@@ -5,7 +5,7 @@ import Pricing from "./sections/Pricing";
 import Faq from "./sections/Faq";
 import Testimonials from "./sections/Testimonials";
 import Download from "./sections/Download";
-
+import Footer from "./sections/Footer";
 export default function App() {
   return (
     <main className="overflow-hidden">
@@ -16,6 +16,7 @@ export default function App() {
       <Faq />
       <Testimonials />
       <Download />
+      <Footer />
     </main>
   )
 }
