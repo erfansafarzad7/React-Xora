@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import Features from "./sections/Features";
 import Pricing from "./sections/Pricing";
 import Faq from "./sections/Faq";
+import Testimonials from "./sections/Testimonials";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Features />
       <Pricing />
       <Faq />
+      <Testimonials />
     </main>
   )
 }
